@@ -1,0 +1,43 @@
+
+{
+    "Webhook" : "",
+    "Failed-Webhook":"",
+    "Webhook-Name" : "e.g Raffle Bot",
+
+    "2-Captcha-Api-Key":"",
+
+    "Delay": "10",
+    "Polling-Rate":"7777",
+
+    "Size-Range-UK":"e.g 8,11",
+    "Range. Lowest=0 Highest=17 (Split with comma)":"'4','4.5','5','5.5','6','6.5','7','7.5','8','8.5','9','9.5','10','10.5','11','11.5','12','12.5'",
+
+    "Retry-Amount":"Amount of request retries",
+
+    "Licence-Key":"",
+
+    "Type-This-In-To-See-Chromedriver-Version":"chrome://settings/help",
+    "chromedriver_version": "86",
+    "Spoof-Task-Amount": "Amount of spoof browser instances",
+
+    "Ftl-Account-Gen-Mode":"look in footlocker folder",
+
+    "Skip-Failed_Attempts":"If the bot fails a request it will move onto the next task",
+    "modes_":[
+        "Yes",
+        "No"
+    ],
+
+    "Audio-Notfications":"On",
+    "Windows10-Notifications":"On",
+    "modes":[
+        "On",
+        "Off"
+    ],
+
+    "Background-Colour":"Black",
+    "Colours":[
+        "Black",
+        "Blue"
+    ]
+}

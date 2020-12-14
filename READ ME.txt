@@ -1,0 +1,52 @@
+How to use the bot. Please Read.
+
+Now that you have opened the bot and all the files have spaned you are ready to enter some raffles...
+
+Settings.json:
+
+Webhook = your webhook url (Mandatory)
+Failed Webhook = your webhook url which all the failed tasks will go to (Mandatory)
+Webhook Name = The name of your webhook e.g. Raffle bot (Mandatory)
+
+2 captcha api key = your api key for 2 captcha 
+
+Delay = the delay between each task in seconds (Mandatory)
+Polling rate = How long it takes for the bot to retry a failed request in milliseconds (Mandatory)
+
+Size range = the start and end of the range of which shoe size you are entering. This starts from 0 to 17 (Mandatory)
+Range_ = ['4','4.5','5','5.5','6','6.5','7','7.5','8','8.5','9','9.5','10','10.5','11','11.5','12','12.5']
+
+Retry amount = The amount of times the bot will retry a failed request(Mandatory)
+
+Licence key = The key in which you have been given to access the bot(Mandatory)
+
+Chromedriver version = the version of chrome you are running(Mandatory)
+Spoof task amount = The amount of windows that will open when you run the spoof browser. Make sure there are more proxies than tasks.(Mandatory)
+
+Footlocker gen mode = the mode you will use the generate tasks. random = everything is randomised other than your email/catchall and region
+     normal = you manually input the required information in the .txt file.
+
+Sizing:
+
+for Footlocker and Sneakers N Stuff there are 3 different modes for sizing. rb = random bae size (Within the range you give) r = random sizeing (Within the range you give) and a single number in the size field in the .csv file to indicate the size that will be entered in the raffle.
+
+Logs:
+
+These are .txt files that show the progress of a task which the bot is completing. it is also for debugging purposes, any errors can be reported which can then be fixed.
+
+Footlocker EU
+
+FOOTLOCKER SHOE SKU = The sku found in the raffles channel or the id found using the scraper located in the tools section (Uses first account in .csv)
+STORE IDS = The stores you would like to enter to, these must be participating stores (Ceck using your phone), there must be 3 stores. The stores can be found in the storesid.txt file
+
+Footlocker store region = this is the region of the stores, this can be found in the storesid.txt file
+
+You may get some errors, if you can manually enter using your phone there maybe an issue with the bot. Please check your setup first, then contact @Khushthedev#9679
+
+The log will tell you whether the bot has entered the raffle or not. 
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+{
+    "name": "project-platinum",
+    "description": "Automated Raffle Entry System",
+    "version": "1.0.0",
+    "scripts": {
+      "test": "Project-Platinum.exe"
+    },
+    "keywords": [],
+    "author": "Khush Chauhan",
+    "license": "ISC",
+    "bugs": {
+      "discord": "Khushthedev#9679"
+    }
+  }
